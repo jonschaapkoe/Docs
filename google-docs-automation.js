@@ -6,6 +6,7 @@ document.dispatchEvent(new KeyboardEvent('keyup', {'keyCode': 67, 'ctrlKey': tru
 var labelInterval = setInterval(function() {
     var label = document.getElementById('goog_1409111978.label');
     if (label) {
+        console.log("hello");
         clearInterval(labelInterval);
 
         // Click on the label
