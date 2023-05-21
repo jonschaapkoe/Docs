@@ -4,7 +4,7 @@ document.dispatchEvent(new KeyboardEvent('keyup', {'keyCode': 67, 'ctrlKey': tru
 
 // Wait for the label to load
 var labelInterval = setInterval(function() {
-    var label = document.getElementById('goog_1409111978.label');
+    var label = document.getElementByClassName('docs-material-gm-labeled-checkbox-circle');
     if (label) {
         console.log("hello");
         clearInterval(labelInterval);
